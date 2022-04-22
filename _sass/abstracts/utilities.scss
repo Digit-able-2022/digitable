@@ -39,6 +39,14 @@
 .txtGreen {color: $green;}
 .txtOrange {color: $orange;}
 
+.borderBlack {border-color: $black;}
+.borderWhite {border-color: $white;}
+.borderBlue {border-color: $blue;}
+.borderDarkBlue {border-color: $darkBlue;}
+.borderGreen {border-color: $green;}
+.borderPink {border-color: $pink;}
+.borderOrange {border-color: $orange;}
+
 /* Typography */
 
 .letter-spacing-1 { letter-spacing: 4.75px; }
@@ -51,3 +59,4 @@
 
 .ffFutura {font-family: $ffFutura;}
 .ffGotham {font-family: $ffGotham;}
+.ffGloria {font-family: $ffGloria;}

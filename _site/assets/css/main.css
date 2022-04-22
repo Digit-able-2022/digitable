@@ -23,6 +23,12 @@ a { text-decoration: none; }
 /* Typography */
 /* Font size */
 /* Font Family */
+@font-face { font-family: 'FuturaPTHeavy'; src: url(../../assets/fonts/FuturaPTHeavy.otf); }
+
+@font-face { font-family: 'GloriaHallelujah'; src: url(../../assets/fonts/GloriaHallelujah-Regular.ttf); }
+
+@font-face { font-family: 'GothamLight'; src: url(../../assets/fonts/Gotham-Light.otf); }
+
 /*-------------------*/
 /* Utility classes */
 /*-------------------*/
@@ -61,6 +67,20 @@ a { text-decoration: none; }
 
 .txtOrange { color: #FFB13D; }
 
+.borderBlack { border-color: #181818; }
+
+.borderWhite { border-color: #FFFFFF; }
+
+.borderBlue { border-color: #54EBFF; }
+
+.borderDarkBlue { border-color: #2230B1; }
+
+.borderGreen { border-color: #00D079; }
+
+.borderPink { border-color: #FF00F5; }
+
+.borderOrange { border-color: #FFB13D; }
+
 /* Typography */
 .letter-spacing-1 { letter-spacing: 4.75px; }
 
@@ -74,9 +94,11 @@ a { text-decoration: none; }
 
 .fsText { font-size: 1.125rem; }
 
-.ffFutura { font-family: "Futura Std Condensed" serif; }
+.ffFutura { font-family: "FuturaPTheavy"; }
 
-.ffGotham { font-family: "Gotham Book", sans-serif; }
+.ffGotham { font-family: "GothamLight"; }
+
+.ffGloria { font-family: "GloriaHallelujah"; }
 
 .side { width: 50vw; height: 100vh; }
 
@@ -88,7 +110,7 @@ a { text-decoration: none; }
 
 .textWhite { color: white; width: 85%; margin: 7rem auto; }
 
-.textWhite h1 { font-size: 4rem; font-family: "Futura Std Condensed" serif; }
+.textWhite h1 { font-size: 4rem; font-family: "FuturaPTheavy"; }
 
 .textWhite h2 { font-size: 2.125rem; }
 
