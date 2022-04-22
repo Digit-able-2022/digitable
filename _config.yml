@@ -15,3 +15,5 @@ defaults:
 collections:
   pages:
     output: true
+
+disable_disk_cache: true
