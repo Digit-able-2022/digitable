@@ -1,0 +1,48 @@
+.side{
+  width: 50vw;
+  height: 100vh;
+
+}
+.sideContainer{
+  display: flex;
+}
+.left{
+  background: black;
+}
+.right{
+  background: gray;
+}
+
+//side Text
+.textWhite{
+  color: white;
+  h1{font-size: $fsTitle;font-family: $ffFutura;}
+  h2{font-size: $fsSsTitle;}
+  p{font-size: $fsText;margin: 1.2rem 0;}
+
+  width: 85%;
+
+  margin: 7rem auto;
+}
+//hNavBar
+
+.hNavBar{
+  justify-content: space-between;
+  margin-top: 20px;
+}
+.hamburger{
+  width: fit-content;
+  padding: 0.7rem;
+  svg{
+
+    cursor: pointer;
+  }
+  // .line{
+  //   height: 4px;
+  //   width: 100%;
+  //   background-color: blue;
+
+
+  // }
+
+}
