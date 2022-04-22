@@ -1,0 +1,53 @@
+@import url(variables.scss);
+
+/*-------------------*/
+/* Utility classes */
+/*-------------------*/
+
+
+.container {
+  padding-inline: 2em;
+  margin-inline: auto;
+  max-width: 80rem;
+}
+
+.flex {
+  display: flex;
+  gap: var(--gap, 1rem);
+}
+
+.grid {
+  display: grid;
+  gap: var(--gap, 1rem);
+}
+
+/* Colors */
+
+.bgBlack {background-color: $black;}
+.bgWhite {background-color: $white;}
+.bgBlue {background-color: $blue;}
+.bgDarkBlue {background-color: $darkBlue;}
+.bgPink {background-color: $pink;}
+.bgGreen {background-color: $green;}
+.bgOrange {background-color: $orange;}
+
+.txtBlack {color: $black;}
+.txtWhite {color: $white;}
+.txtBlue {color: $blue;}
+.txtDarkBlue {color: $darkBlue;}
+.txtPink {color: $pink;}
+.txtGreen {color: $green;}
+.txtOrange {color: $orange;}
+
+/* Typography */
+
+.letter-spacing-1 { letter-spacing: 4.75px; }
+.letter-spacing-2 { letter-spacing: 2.7px; }
+.letter-spacing-3 { letter-spacing: 2.35px; }
+
+.fsTitle {font-size: $fsTitle;}
+.fsSsTitle {font-size: $fsSsTitle;}
+.fsText {font-size: $fsText;}
+
+.ffFutura {font-family: $ffFutura;}
+.ffGotham {font-family: $ffGotham;}
