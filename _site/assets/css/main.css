@@ -1,4 +1,5 @@
 /* http://meyerweb.com/eric/tools/css/reset/ v2.0 | 20110126 License: none (public domain) */
+@import url(variables.scss);
 html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video { margin: 0; padding: 0; border: 0; font-size: 100%; font: inherit; vertical-align: baseline; }
 
 /* HTML5 display-role reset for older browsers */
@@ -17,5 +18,64 @@ table { border-collapse: collapse; border-spacing: 0; }
 a { text-decoration: none; }
 
 * { box-sizing: border-box; }
+
+/* Colors */
+/* Typography */
+/* Font size */
+/* Font Family */
+/*-------------------*/
+/* Utility classes */
+/*-------------------*/
+.container { padding-inline: 2em; margin-inline: auto; max-width: 80rem; }
+
+.flex { display: flex; gap: var(--gap, 1rem); }
+
+.grid { display: grid; gap: var(--gap, 1rem); }
+
+/* Colors */
+.bgBlack { background-color: #181818; }
+
+.bgWhite { background-color: #FFFFFF; }
+
+.bgBlue { background-color: #54EBFF; }
+
+.bgDarkBlue { background-color: #2230B1; }
+
+.bgPink { background-color: #FF00F5; }
+
+.bgGreen { background-color: #00D079; }
+
+.bgOrange { background-color: #FFB13D; }
+
+.txtBlack { color: #181818; }
+
+.txtWhite { color: #FFFFFF; }
+
+.txtBlue { color: #54EBFF; }
+
+.txtDarkBlue { color: #2230B1; }
+
+.txtPink { color: #FF00F5; }
+
+.txtGreen { color: #00D079; }
+
+.txtOrange { color: #FFB13D; }
+
+/* Typography */
+.letter-spacing-1 { letter-spacing: 4.75px; }
+
+.letter-spacing-2 { letter-spacing: 2.7px; }
+
+.letter-spacing-3 { letter-spacing: 2.35px; }
+
+.fsTitle { font-size: 4rem; }
+
+.fsSsTitle { font-size: 2.125rem; }
+
+.fsText { font-size: 1.125rem; }
+
+.ffFutura { font-family: "Futura Std Condensed" serif; }
+
+.ffGotham { font-family: "Gotham Book", sans-serif; }
 
 /*# sourceMappingURL=main.css.map */
