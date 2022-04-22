@@ -61,6 +61,20 @@ a { text-decoration: none; }
 
 .txtOrange { color: #FFB13D; }
 
+.borderBlack { border-color: #181818; }
+
+.borderWhite { border-color: #FFFFFF; }
+
+.borderBlue { border-color: #54EBFF; }
+
+.borderDarkBlue { border-color: #2230B1; }
+
+.borderGreen { border-color: #00D079; }
+
+.borderPink { border-color: #FF00F5; }
+
+.borderOrange { border-color: #FFB13D; }
+
 /* Typography */
 .letter-spacing-1 { letter-spacing: 4.75px; }
 
