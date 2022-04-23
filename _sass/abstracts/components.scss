@@ -38,6 +38,9 @@
     margin: 0;
   }
 }
+.bublle{
+  position: absolute;
+}
 .croix{
   position: relative;
   &::before, &::after{

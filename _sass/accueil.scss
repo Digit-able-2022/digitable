@@ -5,31 +5,35 @@
 }
 .sideContainer{
   display: flex;
+  overflow: hidden;
 }
 .left{
-  background: black;
+  position: relative;
 }
 .right{
   background: gray;
 }
-
+/************************* LEFT SIDE ***********************************/
 //side Text
 .textWhite{
   position: relative;
   padding: 2rem 3rem;
-  background-color: rgba(255, 255, 255, 0.103);
+  background-color: rgba(255, 255, 255, 0.014);
+
+  backdrop-filter: blur( 3px );
+
 
   border-bottom-right-radius: 8px;
   border-top-right-radius: 8px;
 
-  color: white;
+
   h1{font-size: $fsTitle;font-family: $ffFutura;}
   h2{font-size: $fsSsTitle;font-family: $ffFutura;}
   p{font-size: $fsText;margin: 1.2rem 0;font-family: $ffGotham;}
 
   width: 90%;
 
-  margin: 7rem 0;
+  margin: 3.5rem 0;
 }
 //hNavBar
 
@@ -44,6 +48,15 @@
   align-items: center;
   justify-content: space-between;
   transform: translate(2rem, 1rem);
-  margin-top: 8rem;
+  margin-top: 10rem;
 }
 //le reste dans components
+
+//bulles bleues
+#bHG{transform: translate(-50px ,-50px);}
+#bHD{right: 15%;transform: translateY(-10px);}
+#bM{right: 2%;top: 50%;}
+#bBG{left: 5%;bottom: 6%;}
+#bBD{right: 0;bottom: 0;transform: translateY(80%);}
+
+/************************* Right SIDE ***********************************/
