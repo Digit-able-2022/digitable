@@ -108,18 +108,36 @@ a { text-decoration: none; }
 
 .right { background: gray; }
 
-.textWhite { color: white; width: 85%; margin: 7rem auto; }
+.textWhite { position: relative; padding: 2rem 3rem; background-color: rgba(255, 255, 255, 0.103); border-bottom-right-radius: 8px; border-top-right-radius: 8px; color: white; width: 90%; margin: 7rem 0; }
 
 .textWhite h1 { font-size: 4rem; font-family: "FuturaPTheavy"; }
 
-.textWhite h2 { font-size: 2.125rem; }
+.textWhite h2 { font-size: 2.125rem; font-family: "FuturaPTheavy"; }
 
-.textWhite p { font-size: 1.125rem; margin: 1.2rem 0; }
+.textWhite p { font-size: 1.125rem; margin: 1.2rem 0; font-family: "GothamLight"; }
 
 .hNavBar { justify-content: space-between; margin-top: 20px; }
 
-.hamburger { width: fit-content; padding: 0.7rem; }
+.programmeSec { width: 100%; align-items: center; justify-content: space-between; transform: translate(2rem, 1rem); margin-top: 8rem; }
 
-.hamburger svg { cursor: pointer; }
+.hamburger { width: fit-content; height: 3rem; display: flex; flex-direction: column; justify-content: space-between; padding: 0.7rem; cursor: pointer; }
+
+.hamburger .line { height: 4px; width: 2rem; border-radius: 50% / 13px; background-color: #54EBFF; }
+
+.hamburger::before, .hamburger::after { content: ""; display: block; height: 4px; width: 2rem; border-radius: 50% / 13px; background-color: #FFFFFF; }
+
+.programme { align-items: center; justify-content: space-between; height: fit-content; width: fit-content; cursor: pointer; gap: 2rem; }
+
+.programme p { margin: 0; }
+
+.croix { position: relative; }
+
+.croix::before, .croix::after { content: ""; display: block; height: 2.3px; width: 1.6rem; border-radius: 50% / 13px; }
+
+.croix::after { background-color: #54EBFF; }
+
+.croix::before { position: absolute; transform: rotate(90deg); background-color: white; }
+
+.btn { padding: 1rem; border-radius: 12px; }
 
 /*# sourceMappingURL=main.css.map */

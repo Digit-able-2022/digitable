@@ -15,14 +15,21 @@
 
 //side Text
 .textWhite{
+  position: relative;
+  padding: 2rem 3rem;
+  background-color: rgba(255, 255, 255, 0.103);
+
+  border-bottom-right-radius: 8px;
+  border-top-right-radius: 8px;
+
   color: white;
   h1{font-size: $fsTitle;font-family: $ffFutura;}
-  h2{font-size: $fsSsTitle;}
-  p{font-size: $fsText;margin: 1.2rem 0;}
+  h2{font-size: $fsSsTitle;font-family: $ffFutura;}
+  p{font-size: $fsText;margin: 1.2rem 0;font-family: $ffGotham;}
 
-  width: 85%;
+  width: 90%;
 
-  margin: 7rem auto;
+  margin: 7rem 0;
 }
 //hNavBar
 
@@ -30,19 +37,13 @@
   justify-content: space-between;
   margin-top: 20px;
 }
-.hamburger{
-  width: fit-content;
-  padding: 0.7rem;
-  svg{
 
-    cursor: pointer;
-  }
-  // .line{
-  //   height: 4px;
-  //   width: 100%;
-  //   background-color: blue;
-
-
-  // }
-
+//Btn programme
+.programmeSec{
+  width: 100%;
+  align-items: center;
+  justify-content: space-between;
+  transform: translate(2rem, 1rem);
+  margin-top: 8rem;
 }
+//le reste dans components
