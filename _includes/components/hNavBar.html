@@ -1,8 +1,22 @@
 <nav class="flex hNavBar">
   <div></div>
-  <div class="hamburger">
+  <div class="hamburger" onclick="hamb()">
     <div class="line blue"></div>
 
   </div>
 
 </nav>
+<nav class="hOnNavBar bgBlack">
+  <ul class="flex txtWhite">
+    <li>Premier Btn</li>
+    <li>deuxième</li>
+  </ul>
+</nav>
+
+<script>
+  function hamb() {
+    const hOnNavBar = document.getElementsByClassName('hOnNavBar')
+
+    hOnNavBar[0].classList.toggle('hambOn')
+  }
+</script>

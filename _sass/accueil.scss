@@ -11,9 +11,21 @@
   position: relative;
 }
 .right{
-  background: gray;
+
 }
 /************************* LEFT SIDE ***********************************/
+//toggle navbar
+.hOnNavBar{
+
+  height: 5rem;
+  position: absolute;top: 0;right: 0;
+  width: 0;z-index: 3;
+  overflow: hidden;
+  transition: width 0.2s ease-in;
+}
+.hambOn{
+  width: 100% !important;
+}
 //side Text
 .textWhite{
   position: relative;
@@ -60,3 +72,20 @@
 #bBD{right: 0;bottom: 0;transform: translateY(80%);}
 
 /************************* Right SIDE ***********************************/
+
+//bandeaux des 4 tables
+.bande{
+  width: 100%;
+  background-position: center ;
+  background-repeat: repeat;
+  background-size: cover;
+  position: relative;
+  cursor: pointer;
+
+
+}
+.buttonProg{
+  justify-content: space-between;
+  position: absolute;
+  bottom: 20%;right: 2%;
+}

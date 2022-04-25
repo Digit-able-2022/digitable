@@ -106,9 +106,11 @@ a { text-decoration: none; }
 
 .left { position: relative; }
 
-.right { background: gray; }
-
 /************************* LEFT SIDE ***********************************/
+.hOnNavBar { height: 5rem; position: absolute; top: 0; right: 0; width: 0; z-index: 3; overflow: hidden; transition: width 0.2s ease-in; }
+
+.hambOn { width: 100% !important; }
+
 .textWhite { position: relative; padding: 2rem 3rem; background-color: rgba(255, 255, 255, 0.014); backdrop-filter: blur(3px); border-bottom-right-radius: 8px; border-top-right-radius: 8px; width: 90%; margin: 3.5rem 0; }
 
 .textWhite h1 { font-size: 4rem; font-family: "FuturaPTheavy"; }
@@ -132,7 +134,11 @@ a { text-decoration: none; }
 #bBD { right: 0; bottom: 0; transform: translateY(80%); }
 
 /************************* Right SIDE ***********************************/
-.hamburger { width: fit-content; height: 3rem; display: flex; flex-direction: column; justify-content: space-between; padding: 0.7rem; cursor: pointer; }
+.bande { width: 100%; background-position: center; background-repeat: repeat; background-size: cover; position: relative; cursor: pointer; }
+
+.buttonProg { justify-content: space-between; position: absolute; bottom: 20%; right: 2%; }
+
+.hamburger { width: fit-content; height: 3rem; display: flex; flex-direction: column; justify-content: space-between; padding: 0.7rem; cursor: pointer; position: relative; z-index: 4; }
 
 .hamburger .line { height: 4px; width: 2rem; border-radius: 50% / 13px; background-color: #54EBFF; }
 

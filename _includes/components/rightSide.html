@@ -1,8 +1,11 @@
 <section class="side right">
 
   {% assign rightYear = site.data.data.sideText | where: "year", "2022" %}
+  {% assign number = rightYear[0].homePageInfos | size %}
+
 
   {% for infos in rightYear[0].homePageInfos %}
-    {% include components/bandeaux.html %}
+
+    {% include components/bandeaux.html number=number title=infos.title date=infos.date image=infos.image%}
   {% endfor %}
 </section>
