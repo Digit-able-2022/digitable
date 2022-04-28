@@ -25,7 +25,31 @@
 }
 .hambOn{
   width: 100% !important;
+
 }
+.hambAnim{
+
+  height: 2rem !important;
+  & > .line {
+    transform: rotateZ(45deg) translateY(-50%) !important;
+
+  }
+}
+
+.hambAnim::before{
+
+
+  display: none !important;
+
+}
+
+.hambAnim::after{
+  transform: rotateZ(-45deg) translateY(55%);
+  bottom: 50% !important;
+
+
+}
+
 //side Text
 .textWhite{
   position: relative;
