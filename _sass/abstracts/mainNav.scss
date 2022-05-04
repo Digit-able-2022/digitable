@@ -1,0 +1,37 @@
+.mainNav{
+  align-items: center;
+  justify-content: center;
+
+  height: 100%;
+  width: 100%;
+  li{
+    position: relative;
+    cursor: pointer;
+
+    p {
+      z-index: 2;
+      position: relative;
+    }
+  }
+}
+
+.mainNav > li::before {
+  content: "";
+  display: block;
+  z-index: 1;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 0px;
+  background-color: $white ;
+  transition: all 0.3s ease-out;
+}
+.mainNav > li:hover{
+
+  &::before {
+    height: 100%;
+  }
+  p{
+    mix-blend-mode: difference;
+  }
+}

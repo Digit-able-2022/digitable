@@ -107,7 +107,7 @@ a { text-decoration: none; }
 .left { position: relative; }
 
 /************************* LEFT SIDE ***********************************/
-.hOnNavBar { height: 5rem; position: absolute; top: 0; right: 0; width: 0; z-index: 3; overflow: hidden; transition: width 0.2s ease-in; }
+.hOnNavBar { height: 5rem; position: absolute; top: 0; right: 0; width: 0; z-index: 3; overflow: hidden; transition: width 0.5s; transition-timing-function: cubic-bezier(0.93, -0.04, 1, 0.93); }
 
 .hambOn { width: 100% !important; }
 
@@ -160,9 +160,11 @@ a { text-decoration: none; }
 
 .programme p { margin: 0; }
 
+.programme:hover .croix { transform: rotate(360deg); }
+
 .bublle { position: absolute; }
 
-.croix { position: relative; }
+.croix { position: relative; transition: all 1s; }
 
 .croix::before, .croix::after { content: ""; display: block; height: 2.3px; width: 1.6rem; border-radius: 50% / 13px; }
 
@@ -171,5 +173,17 @@ a { text-decoration: none; }
 .croix::before { position: absolute; transform: rotate(90deg); background-color: white; }
 
 .btn { padding: 1rem; border-radius: 12px; }
+
+.mainNav { align-items: center; justify-content: center; height: 100%; width: 100%; }
+
+.mainNav li { position: relative; cursor: pointer; }
+
+.mainNav li p { z-index: 2; position: relative; }
+
+.mainNav > li::before { content: ""; display: block; z-index: 1; position: absolute; bottom: 0; width: 100%; height: 0px; background-color: #FFFFFF; transition: all 0.3s ease-out; }
+
+.mainNav > li:hover::before { height: 100%; }
+
+.mainNav > li:hover p { mix-blend-mode: difference; }
 
 /*# sourceMappingURL=main.css.map */

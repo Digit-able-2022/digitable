@@ -48,12 +48,17 @@
   p{
     margin: 0;
   }
+  &:hover .croix {
+    transform: rotate(360deg);
+  }
 }
 .bublle{
   position: absolute;
 }
 .croix{
   position: relative;
+  transition: all 1s;
+
   &::before, &::after{
     content: "";
     display: block;
@@ -69,6 +74,7 @@
     transform: rotate(90deg);
     background-color: white;
   }
+
 }
 .btn{
   padding: 1rem;

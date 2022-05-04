@@ -21,7 +21,8 @@
   position: absolute;top: 0;right: 0;
   width: 0;z-index: 3;
   overflow: hidden;
-  transition: width 0.2s ease-in;
+  transition: width 0.5s;
+  transition-timing-function: cubic-bezier(.93,-0.04,1,.93);
 }
 .hambOn{
   width: 100% !important;
