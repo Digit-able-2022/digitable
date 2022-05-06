@@ -8,7 +8,8 @@
 </nav>
 <nav class="hOnNavBar bgBlack">
   <ul class="flex txtWhite mainNav">
-    <a href="/"><li><p class="ffGotham"> Home </p></li></a>
+    {% assign latestColloque = site.years | last %}
+    <a href="/{{ latestColloque.year }}"><li><p class="ffGotham"> Home </p></li></a>
     <a href="/editions"><li><p class="ffGotham"> Editions </p></li></a>
   </ul>
 </nav>
