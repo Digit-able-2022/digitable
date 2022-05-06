@@ -12,8 +12,16 @@ defaults:
       permalink: /:slug
       layout: "default"
 
+
+
 collections:
   pages:
     output: true
+
+  years:
+    output: true
+    permalink: /:year
+
+
 
 disable_disk_cache: true

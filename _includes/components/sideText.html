@@ -1,5 +1,6 @@
 <article class="textWhite txtWhite">
-  {% assign rightYear = site.data.data.sideText | where: "year", "2022" %}
+  {% assign rightYear = site.years | where: "year", "2022" %}
+
   <h2>Édition {{ rightYear[0].year }}</h2>
   <h1>{{ rightYear[0].theme }}</h1>
 
@@ -7,7 +8,7 @@
   </p>
   <section class="programmeSec flex">
     <div></div>
-    {% include components/btnCroix.html text="Programme"%}
+    {% include components/btnCroix.html text="Programme" %}
 
   </section>
 

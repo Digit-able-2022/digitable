@@ -1,0 +1,8 @@
+---
+title: Digital natives
+layout: default
+---
+{% for year in site.years %}
+  <p>{{ year.annee }}</p>
+  <a href="{{ year.url }}">{{ year.title }}</a>
+{% endfor %}
