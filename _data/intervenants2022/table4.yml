@@ -1,0 +1,22 @@
+---
+
+intervenant1:
+  nom: Thomas Brunel
+  profession: Docteur en science de l'art et chercheur associé au laboratoire MICA
+  presentation_courte:
+  presentation_longue:
+
+intervenant2:
+  nom: Oscar Motta
+  profession: Docteur en science de l'art
+  presentation_courte:
+  presentation_longue:
+
+intervenant3:
+  nom: Raphael Marzack
+  profession: Ingénieur en informatique et docteur en game studies
+  presentation_courte:
+  presentation_longue:
+
+
+presentation:
