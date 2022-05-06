@@ -1,0 +1,9 @@
+<section class="side left bgBlack">
+  {% include components/hNavBar.html %}
+  <article class="textWhite txtWhite">
+      <h2>Les colloques MMI</h2>
+      <h1>LES COLLOQUES PRÉCÉDENTES</h1>
+      {% assign rightYear = site.data.data.sideText | where: "year", "2022" %}
+      <p>{{ rightYear[0].resume }}</p>
+  </article>
+</section>

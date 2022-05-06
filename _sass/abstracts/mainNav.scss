@@ -4,6 +4,11 @@
 
   height: 100%;
   width: 100%;
+  a{
+    text-decoration: none;
+    color: white;
+
+  }
   li{
     position: relative;
     cursor: pointer;
@@ -15,7 +20,7 @@
   }
 }
 
-.mainNav > li::before {
+.mainNav  li::before {
   content: "";
   display: block;
   z-index: 1;
@@ -26,7 +31,7 @@
   background-color: $white ;
   transition: all 0.3s ease-out;
 }
-.mainNav > li:hover{
+.mainNav  li:hover{
 
   &::before {
     height: 100%;

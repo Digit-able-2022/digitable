@@ -1,0 +1,11 @@
+<section class="side right">
+
+  {% assign rightYear = site.data.data.sideText %}
+  {% assign numberEditions = rightYear | size %}
+
+  {% for edition in rightYear %}
+    {% include components/editions/card.html theme = edition.theme year = edition.year nbr = numberEditions %}
+  {% endfor %}
+
+
+</section>
