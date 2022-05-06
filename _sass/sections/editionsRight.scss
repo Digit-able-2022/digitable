@@ -1,0 +1,38 @@
+.editionCard {
+  padding: 10px;
+  width: 100%;
+  min-height: 15%;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  & > article {
+    width: fit-content;
+    margin: auto;
+    padding: 0 20px;
+    position: relative;
+    z-index: 2;
+    h2, p {
+      z-index: 2;
+      position: relative;
+    }
+  }
+
+
+
+}
+.tacheLeft{
+  left: 0;
+  top: 0;
+  transform: translate(-50%, -40%) rotate(180deg);
+
+}
+.tacheRight{
+  right: 0;
+  transform: translate(50%, 40%);
+  bottom: 0;
+}
+.tacheLeft, .tacheRight{
+  position: absolute;
+
+  z-index: 0;
+}

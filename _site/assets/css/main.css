@@ -176,14 +176,28 @@ a { text-decoration: none; }
 
 .mainNav { align-items: center; justify-content: center; height: 100%; width: 100%; }
 
+.mainNav a { text-decoration: none; color: white; }
+
 .mainNav li { position: relative; cursor: pointer; }
 
 .mainNav li p { z-index: 2; position: relative; }
 
-.mainNav > li::before { content: ""; display: block; z-index: 1; position: absolute; bottom: 0; width: 100%; height: 0px; background-color: #FFFFFF; transition: all 0.3s ease-out; }
+.mainNav li::before { content: ""; display: block; z-index: 1; position: absolute; bottom: 0; width: 100%; height: 0px; background-color: #FFFFFF; transition: all 0.3s ease-out; }
 
-.mainNav > li:hover::before { height: 100%; }
+.mainNav li:hover::before { height: 100%; }
 
-.mainNav > li:hover p { mix-blend-mode: difference; }
+.mainNav li:hover p { mix-blend-mode: difference; }
+
+.editionCard { padding: 10px; width: 100%; min-height: 15%; display: flex; align-items: center; cursor: pointer; }
+
+.editionCard > article { width: fit-content; margin: auto; padding: 0 20px; position: relative; z-index: 2; }
+
+.editionCard > article h2, .editionCard > article p { z-index: 2; position: relative; }
+
+.tacheLeft { left: 0; top: 0; transform: translate(-50%, -40%) rotate(180deg); }
+
+.tacheRight { right: 0; transform: translate(50%, 40%); bottom: 0; }
+
+.tacheLeft, .tacheRight { position: absolute; z-index: 0; }
 
 /*# sourceMappingURL=main.css.map */
