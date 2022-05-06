@@ -1,5 +1,7 @@
 ---
-
+title: Confiance et espaces
+resume:
+ouvrage:
 
 intervenant1:
   nom: Jerôme Lafourcade

@@ -1,4 +1,7 @@
 ---
+title: Confiance et usages
+resume:
+ouvrage:
 
 intervenant1:
   nom: Eric Cattelin
