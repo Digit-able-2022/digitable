@@ -2,8 +2,9 @@
   {% include components/hNavBar.html %}
   <article class="textWhite txtWhite">
       <h2>Les colloques MMI</h2>
-      <h1>LES COLLOQUES PRÉCÉDENTES</h1>
-      {% assign rightYear = site.years | where: "year", "2022" %}
-      <p>{{ rightYear[0].resume }}</p>
+      <h1>LES COLLOQUES PRÉCÉDENTS</h1>
+      {% assign latestColloque = site.years | last %}
+
+      <p>{{ latestColloque.resume }}</p>
   </article>
 </section>
