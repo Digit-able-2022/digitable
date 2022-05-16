@@ -216,6 +216,31 @@ a { text-decoration: none; }
 
 .progCroix::before { background-color: #181818 !important; }
 
+<<<<<<< HEAD
+.navTable { background-color: black; display: flex; position: absolute; flex-direction: column; height: 100vh; width: 10vh; border-right: 1px solid #54EBFF; font-family: "GothamLight"; }
+
+.navTable a { color: white; }
+
+.navTable ul { width: 100%; height: 100%; display: flex; flex-direction: column; justify-content: space-around; }
+
+.navTable li { color: white; }
+
+.navTable .navBoxText { display: flex; }
+
+.navTable .navBoxText li { transform: rotate(270deg); margin: 50px; }
+
+.navTable .navLink { display: flex; justify-content: center; align-items: center; }
+
+.navTable .navBox { display: flex; justify-content: center; }
+
+.navTable .programme { align-items: center; justify-content: space-between; height: fit-content; width: fit-content; cursor: pointer; }
+
+.navTable .programme p { margin: 0; }
+
+.navTable .programme:hover .croix { transform: rotate(360deg); }
+
+.navTable .flex { display: block; }
+=======
 .table { background-color: black; height: 100vh; padding: 0; margin: 0; }
 
 .landingTableBox { width: 50%; margin: 0 auto; color: #FFFFFF; font-family: "FuturaPTheavy"; }
@@ -229,5 +254,6 @@ a { text-decoration: none; }
 .tableSubTitle { align-self: center; margin-left: 2%; color: white; cursor: pointer; }
 
 .tableSubTitle:hover { transition: .5s ease-in-out; color: #54EBFF; }
+>>>>>>> f4ce815a6b415ce94f746b5a9d8170e01120af53
 
 /*# sourceMappingURL=main.css.map */
