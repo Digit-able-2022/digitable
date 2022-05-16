@@ -7,6 +7,6 @@
 
   {% for infos in page.homePageInfos %}
 
-    {% include components/bandeaux.html number=number title=infos.title date=infos.date image=infos.image%}
+    {% include components/bandeaux.html number=number title=infos.title date=infos.date image=infos.image source=infos.source %}
   {% endfor %}
 </section>
