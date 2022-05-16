@@ -1,0 +1,9 @@
+---
+title: haaa
+layout: default
+---
+{% for table in site.tables %}
+  <div>
+    <a href="{{ table.url }}">{{ table.title }}</a>
+  </div>
+{% endfor %}
