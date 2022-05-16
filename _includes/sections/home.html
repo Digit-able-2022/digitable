@@ -18,10 +18,11 @@
 
 <script>
 
-  const progBtn = document.getElementsByClassName('programmePopBtn')
+  const progBtnTmp = document.getElementsByClassName('programmePopBtn')
+  const progBtn = progBtnTmp[0].children
   const progCroix = document.getElementsByClassName('progCroix')
 
-  console.log(progCroix[0]);
+
   progCroix[0].onclick = function() { hide() };
   const popUpProg = document.getElementById('popSection')
 
@@ -30,7 +31,9 @@
 
   var toggle = false
 
-  progBtn[0].addEventListener('click', () => {
+  progBtn[0].addEventListener('click', (e) => {
+
+    e.preventDefault()
 
     progBtn[0].classList.toggle('croixMinus')
 

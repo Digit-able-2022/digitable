@@ -36,7 +36,7 @@
   &::after{bottom: 0;}
 
 }
-.programme{
+.programme{ //btnCroix
   align-items: center;
   justify-content: space-between;
   height: fit-content;
@@ -52,6 +52,10 @@
     transform: rotate(360deg);
   }
 }
+.programmeLink{
+  color: $white;
+}
+
 .bublle{
   position: absolute;
 }
