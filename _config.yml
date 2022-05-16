@@ -23,6 +23,9 @@ collections:
     output: true
     permalink: /:year
 
+  tables:
+    output: true
+
 
 
 disable_disk_cache: true

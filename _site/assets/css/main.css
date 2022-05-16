@@ -216,6 +216,7 @@ a { text-decoration: none; }
 
 .progCroix::before { background-color: #181818 !important; }
 
+<<<<<<< HEAD
 .navTable { background-color: black; display: flex; position: absolute; flex-direction: column; height: 100vh; width: 10vh; border-right: 1px solid #54EBFF; font-family: "GothamLight"; }
 
 .navTable a { color: white; }
@@ -239,5 +240,20 @@ a { text-decoration: none; }
 .navTable .programme:hover .croix { transform: rotate(360deg); }
 
 .navTable .flex { display: block; }
+=======
+.table { background-color: black; height: 100vh; padding: 0; margin: 0; }
+
+.landingTableBox { width: 50%; margin: 0 auto; color: #FFFFFF; font-family: "FuturaPTheavy"; }
+
+.tableTitle { font-size: 3.5rem; }
+
+.tableProgramList { margin: 10% auto; }
+
+.tablePart { font-size: 2rem; margin: 3% 0; display: flex; align-content: center; }
+
+.tableSubTitle { align-self: center; margin-left: 2%; color: white; cursor: pointer; }
+
+.tableSubTitle:hover { transition: .5s ease-in-out; color: #54EBFF; }
+>>>>>>> f4ce815a6b415ce94f746b5a9d8170e01120af53
 
 /*# sourceMappingURL=main.css.map */
