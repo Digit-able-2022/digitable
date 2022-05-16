@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="/assets/css/main.css">
   </head>
   <body>
-    
+
 <main class="sideContainer">
   <section class="side left bgBlack">
   <img class="bublle" id="bHG" src="/assets/tachesbleues/hg.png" alt="">
@@ -25,7 +25,7 @@
 </nav>
 <nav class="hOnNavBar bgBlack">
   <ul class="flex txtWhite mainNav">
-    
+
     <a href="/2022"><li><p class="ffGotham"> Home </p></li></a>
     <a href="/editions"><li><p class="ffGotham"> Editions </p></li></a>
   </ul>
@@ -42,7 +42,7 @@
 </script>
 
   <article class="textWhite txtWhite">
-  
+
 
   <h2>Édition 2022</h2>
   <h1>CONFIANCE</h1>
@@ -66,18 +66,112 @@
 
 </section>
 
-  <section class="side right">
+  <section class="side right TableContainer bgBlack">
 
   <!---->
 
-  
 
 
-  
+
+
 </section>
 
 
+    <article class="bgWhite popProgramme" id="popSection">
+      <h3 class="ffGotham fsText">Édition 2022 - Programme</h3>
+
+
+
+        <div class="croix progCroix"></div>
+
+
+    </article>
+
 </main>
+
+
+<script>
+
+  const progBtn = document.getElementsByClassName('programmePopBtn')
+  const progCroix = document.getElementsByClassName('progCroix')
+
+  console.log(progCroix[0]);
+  progCroix[0].onclick = function() { hide() };
+  const popUpProg = document.getElementById('popSection')
+
+  const RightSide = document.getElementsByClassName('TableContainer')
+
+
+  var toggle = false
+
+  progBtn[0].addEventListener('click', () => {
+
+    progBtn[0].classList.toggle('croixMinus')
+
+    if (toggle == false) {
+
+      console.log(toggle);
+      for (var i = 0; i < RightSide[0].children.length; i++) {
+        const bandeau = RightSide[0].children[i]
+        var delay = 0.1
+        console.log(bandeau);
+        bandeau.style.transform = 'translateX(100%)'
+        bandeau.style.transitionDelay = i*delay + "s"
+         //second console output
+
+      }
+
+
+      popUpProg.style.transform = "translateX(0)"
+      popUpProg.style.transitionDelay = 6*delay + "s"
+      toggle = true
+
+    }else if (toggle == true){
+      hide()
+    }
+
+
+
+  })
+  function hide() {
+    popUpProg.style.transform = "translateX(110%)"
+    popUpProg.style.transitionDelay = "0s"
+
+    for (var i = 0; i < RightSide[0].children.length; i++) {
+      const bandeau = RightSide[0].children[i]
+      var wait = 0.5
+      var delay = 0.1
+      console.log(bandeau);
+      bandeau.style.transform = 'translateX(0%)'
+      bandeau.style.transitionDelay = wait + i*delay + "s"
+        //second console output
+
+    }
+    toggle = false
+  }
+
+
+  // console.log(progBtn[0]);
+  // console.log(popUpProg[0]);
+
+  // progBtn[0].addEventListener('click', () => {
+  //   console.log('hey');
+  //   popUpProg[0].classList.toggle('showPop')
+
+  //   popUpProg[0].addEventListener('click', hide)
+
+  // })
+
+  // function hide(e) {
+  //   if (e.target == e.currentTarget){
+  //     popUpProg[0].classList.toggle('showPop')
+
+  //   }
+
+  // }
+
+
+</script>
 
 
 

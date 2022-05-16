@@ -1,0 +1,10 @@
+.progCroix {
+  transform: rotate(45deg);
+  width: fit-content;
+  cursor: pointer;
+  padding: 1rem;
+
+  &::before{
+    background-color: $black !important;
+  }
+}
