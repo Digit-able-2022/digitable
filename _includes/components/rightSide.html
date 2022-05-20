@@ -1,4 +1,4 @@
-<section class="side right">
+<section class="side right TableContainer bgBlack">
 
   <!--{% assign rightYear = site.data.data.sideText | where: "year", "2022" %}-->
 
@@ -7,6 +7,6 @@
 
   {% for infos in page.homePageInfos %}
 
-    {% include components/bandeaux.html number=number title=infos.title date=infos.date image=infos.image%}
+    {% include components/bandeaux.html number=number title=infos.title date=infos.date image=infos.image source=infos.source %}
   {% endfor %}
 </section>
