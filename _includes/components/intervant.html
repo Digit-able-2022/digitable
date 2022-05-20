@@ -1,0 +1,23 @@
+<script>
+    function hideText() {
+        const x = document.getElementById("hideText");
+        if (x.style.display === "none") {
+            x.style.display = "block";
+        } else {
+            x.style.display = "none";
+        }
+    }
+</script>
+
+<section class="intervenants">
+    {% assign chemin =  site.data.intervenants2022 %}
+    <div class="column">
+        <img src="" alt="photo intervenant">
+        <div>
+            <h4>{{}}</h4>
+            <p>blablabla</p>
+            <button onclick="hideText()">En savoir plus</button>
+        </div>
+    </div>
+    <div id="hideText">blablabla2</div>
+</section>
