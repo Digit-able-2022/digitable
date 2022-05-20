@@ -1,0 +1,172 @@
+
+.tableOuterSection{
+  display: flex;
+  width: fit-content;
+  max-height: 100vh;
+  background: black;
+  font-family: $ffFutura;
+}
+.tableWrapper{
+  display: flex;
+  flex-direction: row;
+}
+.slide{
+  width: 100vw;
+  height: 100vh;
+  color: $white;
+  padding-top: 5vw ;
+}
+
+.landingTableBox{
+  padding-left: 20vw;
+
+  margin: 0 auto;
+  font-family: $ffFutura;
+}
+.tableTitle{
+  font-size: 3.5rem;
+}
+.tableProgramList{
+  margin: 10% auto;
+}
+.tablePart{
+  font-size: 2rem;
+  margin: 3% 0;
+  display: flex;
+  align-content: center;
+}
+.tableSubTitle{
+  align-self: center;
+  margin-left: 2%;
+  color: white;
+  cursor: pointer;
+}
+.tableSubTitle:hover{
+  transition: .5s ease-in-out;
+  color: $blue;
+}
+
+// POSTER SECTION
+#posterImg{
+  background-image: url("https://pbs.twimg.com/media/EgvrZiEWkAEPS_z.jpg");
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.tablePoster{
+  position: relative;
+  left: -20vw;
+  height: 100vh;
+  // background: blue;
+  width: 80vh;
+  z-index: 0;
+
+}
+.textPoster{
+  // background: green;
+  width: 100%;
+  align-self: center;
+  position: relative;
+  top: 15%;
+}
+.titlePoster{
+  font-size: $fsSsTitle;
+  margin: 5% 0;
+}
+.txtPoster{
+  width: 100%;
+  font-size: $fsText;
+}
+// LIVE SECTION
+.directLiveSection{
+  width: 120vw;
+  margin: 0;
+  position: relative;
+  display: flex;
+  justify-content: space-around;
+}
+
+.liveFlex{
+width: 33vw;
+position: relative;
+display: block;
+}
+.titleBoxLive{
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  width: 20vw;
+}
+.subtitleBoxLive{
+  display: flex;
+
+}
+.tableSubTitle{
+  width: 100%;
+  font-size: $fsSsTitle;
+}
+.iconLive{
+  width: 20%;
+}
+.imgOrganisateur{
+  background: gray;
+  margin: 5vh 0;
+  width: 200px;
+  height: 200px;
+
+}
+.hostBanner{
+  background: blue;
+  position: absolute;
+  bottom: 25.5%;
+  left:-22%;
+
+  transform: rotate(-90deg);
+  text-align: center;
+  height: 5vh;
+  width: 84%;
+  align-items: center;
+
+}
+.hostName{
+  position: absolute;
+  top: 50%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+  left: 25%;
+}
+
+.liveMiddle, .liveRight{
+  padding-top: 10vh ;
+}
+.liveSection{
+  margin-bottom: 10vh ;
+}
+
+// -------SECTION INTERVENANT -------------
+
+.intervenant{
+  display: flex;
+  justify-content: space-evenly;
+}
+.imgBoxIntervenant{
+  display: flex;
+  height: 80%;
+  position: relative;
+}
+.bannerIntervenant{
+  background: $darkBlue;
+  min-height: 125%;
+  position: relative;
+  display: block;
+  width: 3vw;
+
+}
+.titleBannerIntervenant{
+  left: -23.5vw;
+  position: absolute;
+  text-align: center;
+  transform: rotate(-90deg);
+  width: 50vw;
+  bottom: 50%;
+  z-index: 1;
+}

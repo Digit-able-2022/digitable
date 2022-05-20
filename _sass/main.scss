@@ -1,5 +1,4 @@
 @import "base/reset";
-
 @import "abstracts/variables";
 @import "abstracts/utilities";
 @import "accueil";
@@ -7,8 +6,5 @@
 @import "abstracts/mainNav";
 @import "sections/editionsRight";
 @import "sections/program";
-<<<<<<< HEAD
 @import "abstracts/navBarTable";
-=======
-@import "sections/table";
->>>>>>> f4ce815a6b415ce94f746b5a9d8170e01120af53
+@import "components/table.scss";
