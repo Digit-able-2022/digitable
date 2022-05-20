@@ -1,12 +1,12 @@
-<section class="bande txtWhite bgBlack" style="height: calc(100vh / {{ include.number }});
-                                        background-image: url(assets/archives/{{ include.image }})">
+<section class="bande txtWhite bgBlack"
+  style="height: calc(100vh / {{ include.number }});
+ background-image: url(../assets/archives/{{ include.image }});">
+
 
 
   {% assign buttonText = include.title | append: ' - ' | append: include.date %}
-  {% assign tableSource = 'tables/' | append: page.year | append: '/' | append: include.source %}
+  {% assign tableSource = append: '/' | append: include.source %}
   <div class="flex buttonProg">
-    <div class=""></div>
-
     {% include components/btnCroix.html text=buttonText source=tableSource %}
   </div>
 
