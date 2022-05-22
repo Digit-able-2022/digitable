@@ -1,5 +1,6 @@
 
 <section class="tableWrapper">
+
 <div class="slide slide1 landingTableBox">
   <h1 class="tableTitle">{{ page.title }}</h1>
   <ul class="tableProgramList">
@@ -23,6 +24,7 @@
     </li>
   </ul>
 </div>
+
 <div id="posterImg" class="slide imgBoxPoster">
   <!-- <img src="" alt="tablePoster"> -->
 </div>
@@ -30,7 +32,7 @@
 <div  class="slide tablePoster">
     <div class="textPoster">
       <h2 class="titlePoster">Le Poster</h2>
-      <p class="txtPoster">{{page.resume}}</p>
+      <p class="txtPoster">{{page.poster}}</p>
     </div>
 </div>
 <!-- -------------LIVE SECTION------------- -->
@@ -46,7 +48,7 @@
 
       </div>
       <div class="hostBanner">
-        <p class="hostName">Présenté par Peyo Suire</p>
+        <p class="hostName">{{page.presentateur_name}}</p>
       </div>
     </div>
   </div>
@@ -55,7 +57,7 @@
     <div class="liveContentText">
       <div class="angleSection">
         <h3 class="tableSubTitle">L'angle</h3>
-        <p class="text">{{page.text}}</p>
+        <p class="text">{{page.angle}}</p>
         <img src="" alt="">
       </div>
     </div>
@@ -64,31 +66,35 @@
     <div class="liveContentText">
       <div class="liveSection">
         <h3 class="tableSubTitle">Retex</h3>
-        <p class="text">{{page.text}}</p>
+        <p class="text">{{page.retex}}</p>
       </div>
       <div class="liveSection">
         <h3 class="tableSubTitle">Com Scientifique</h3>
-        <p class="text">{{page.text}}</p>
+        <p class="text">{{page.com}}</p>
       </div>
     </div>
   </div>
 
 </div>
+
 <!-- VIDEO SECTION -->
+
 <div class="slide slide4 videoTable"></div>
+
 <!-- INTERVENANTS SECTION -->
+
 <div class="slide slide5 intervenant">
   <div class="imgBoxIntervenant">
     <div class="bannerIntervenant">
-      <p class="titleBannerIntervenant">Proffeseur à l'IUT Bordeaux Montaigne</p>
+      <p class="titleBannerIntervenant">{{page.profession1}}</p>
     </div>
     <img src="../../assets/imgs/imgIntervenant.png" alt="" class="imgIntervenant">
   </div>
   <div class="sectionIntervenant leftInter">
-    <h2 class="titleIntervenant">{{page.intervenant_1.nom}}</h2>
+    <h2 class="titleIntervenant">{{page.name1}}</h2>
     <div class="imgFlexIntervenant">
       <div class="bannerIntervenant">
-        <p class="textIntervenant professionInter">{{page.intervenant1.profession}}</p>
+        <p class="textIntervenant professionInter">{{page.profession1}}</p>
       </div>
       <img src="" alt="imgIntervenant" class="imgIntervenant">
     </div>
@@ -96,15 +102,15 @@
 
   <div class="sectionIntervenant middleInter">
     <ul class="listInfoIntervenant">
-      <li class="infoInter">{{page.intervenant_1.nom}}</li>
-      <li class="infoInter">{{page.intervenant_1.nom}}</li>
-      <li class="infoInter">{{page.intervenant_1.nom}}</li>
-      <li class="infoInter">{{page.intervenant_1.nom}}</li>
+      <li class="infoInter">{{page.name1}}</li>
+      <li class="infoInter">{{page.name2}}</li>
+      <li class="infoInter">{{page.name3}}</li>
+      <li class="infoInter">{{page.name3}}</li>
     </ul>
   </div>
   <div class="sectionIntervenant rightInter">
     <h2 class="titleIntervenant">Résumé</h2>
-    <p class="infoInter">{{page.intervenant_1.presentation_courte}}</p>
+    <p class="infoInter">{{page.resume1}}</p>
   </div>
 
 </div>

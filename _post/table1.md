@@ -1,6 +1,6 @@
 ---
 
-title: Confiance et données
+title: Confiance et données prout
 resume: Lors de la première table ronde, nous allons débatre autour des sujets de la confiance et des données sur Internet plus précisément de l’identité numérique et de l’anonymat. André Vitalys, professeur émérite dans le domaine de l’information et de la communication, commencera la discussion avec son retour d’expérience, suivi de Claire D’hennezel, elle aussi chercheuse dans le domaine, et de Jean Christophe Fedherbe, membre de la section opérationnelle de lutte contre le cyber harcèlement
 ouvrage:
 
