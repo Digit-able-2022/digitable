@@ -216,6 +216,24 @@ a { text-decoration: none; }
 
 .progCroix::before { background-color: #181818 !important; }
 
+.progCroixWhite::before { background-color: #FFFFFF !important; }
+
+#popSection { color: #FFFFFF; }
+
+#popSection h1, #popSection h2 { font-family: "FuturaPTheavy"; }
+
+#popSection h1 { font-size: 4rem; }
+
+#popSection h2 { font-size: 2.125rem; }
+
+#popSection p { font-family: "GothamLight"; font-size: 1.125rem; }
+
+.popProgramme { padding: 3rem 1rem !important; display: flex; flex-direction: column; justify-content: space-between; align-items: flex-start; }
+
+.popProgramme > div { justify-content: space-between; align-items: center; width: 100%; }
+
+.popProgramme > div h1, .popProgramme > div p { display: inline; }
+
 .navTable { background-color: black; display: flex; position: fixed; flex-direction: column; height: 100vh; width: 10vh; border-right: 1px solid #54EBFF; font-family: "GothamLight"; z-index: 3; }
 
 .navTable a { color: white; }

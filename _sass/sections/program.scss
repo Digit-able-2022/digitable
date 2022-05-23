@@ -8,3 +8,42 @@
     background-color: $black !important;
   }
 }
+
+.progCroixWhite{
+  &::before{
+    background-color: $white !important;
+  }
+}
+
+#popSection{
+  color: $white;
+
+  h1, h2 {
+    font-family: $ffFutura;
+
+  }
+  h1{ font-size: $fsTitle;}
+  h2{ font-size: $fsSsTitle;}
+  p{
+    font-family: $ffGotham;
+    font-size: $fsText;
+  }
+}
+//pop up programme dans page d'accueil
+.popProgramme{
+  padding: 3rem 1rem !important;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+
+  & > div {
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+
+    h1, p {
+      display: inline;
+    }
+  }
+}
