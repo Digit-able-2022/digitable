@@ -25,7 +25,7 @@
   </ul>
 </div>
 
-<div id="posterImg" class="slide imgBoxPoster">
+<div id="poster" class="slide imgBoxPoster">
   <!-- <img src="" alt="tablePoster"> -->
 </div>
 
@@ -36,7 +36,7 @@
     </div>
 </div>
 <!-- -------------LIVE SECTION------------- -->
-<div class="slide directLiveSection">
+<div id="live"class="slide directLiveSection">
   <div class="liveFlex titleBoxLive">
     <div class= "subtitleBoxLive">
       <img src="../../assets/imgs/live.svg" alt="iconLive" class="iconLive">
@@ -58,7 +58,7 @@
       <div class="angleSection">
         <h3 class="tableSubTitle">L'angle</h3>
         <p class="text">{{page.angle}}</p>
-        <img src="" alt="">
+        <img src="" alt="image-angle">
       </div>
     </div>
   </div>
@@ -79,38 +79,29 @@
 
 <!-- VIDEO SECTION -->
 
-<div class="slide slide4 videoTable"></div>
+<div id="video" class="slide slide4 videoTable"></div>
 
 <!-- INTERVENANTS SECTION -->
 
-<div class="slide slide5 intervenant">
+<div id="intervenants" class="slide  intervenant">
   <div class="imgBoxIntervenant">
     <div class="bannerIntervenant">
       <p class="titleBannerIntervenant">{{page.profession1}}</p>
     </div>
     <img src="../../assets/imgs/imgIntervenant.png" alt="" class="imgIntervenant">
   </div>
-  <div class="sectionIntervenant leftInter">
-    <h2 class="titleIntervenant">{{page.name1}}</h2>
-    <div class="imgFlexIntervenant">
-      <div class="bannerIntervenant">
-        <p class="textIntervenant professionInter">{{page.profession1}}</p>
-      </div>
-      <img src="" alt="imgIntervenant" class="imgIntervenant">
-    </div>
-  </div>
-
   <div class="sectionIntervenant middleInter">
+    <h2 class="tableSubTitle titleIntervenant ">{{page.name1}}</h2>
     <ul class="listInfoIntervenant">
-      <li class="infoInter">{{page.name1}}</li>
-      <li class="infoInter">{{page.name2}}</li>
+      <li class="infoInter">Téléphone:{{page.name1}}</li>
+      <li class="infoInter">Courriel: {{page.name2}}</li>
       <li class="infoInter">{{page.name3}}</li>
       <li class="infoInter">{{page.name3}}</li>
     </ul>
   </div>
   <div class="sectionIntervenant rightInter">
-    <h2 class="titleIntervenant">Résumé</h2>
-    <p class="infoInter">{{page.resume1}}</p>
+    <h2 class="tableSubTitle titleIntervenant">Résumé</h2>
+    <p class="infoInter">{{page.com}}</p>
   </div>
 
 </div>

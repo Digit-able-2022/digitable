@@ -298,4 +298,6 @@ a { text-decoration: none; }
 
 .titleBannerIntervenant { left: -23.5vw; position: absolute; text-align: center; transform: rotate(-90deg); width: 50vw; bottom: 50%; z-index: 1; }
 
+.middleInter, .rightInter { width: 33%; margin: 15% 5%; }
+
 /*# sourceMappingURL=main.css.map */
