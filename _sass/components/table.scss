@@ -147,6 +147,7 @@ display: block;
 .intervenant{
   display: flex;
   justify-content: space-evenly;
+
 }
 .imgBoxIntervenant{
   display: flex;
@@ -169,4 +170,9 @@ display: block;
   width: 50vw;
   bottom: 50%;
   z-index: 1;
+}
+
+.middleInter, .rightInter{
+  width: 33%;
+  margin: 15% 5%;
 }
