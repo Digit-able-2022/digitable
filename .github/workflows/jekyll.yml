@@ -12,7 +12,7 @@ jobs:
 
     steps:
       - name: 🛎 Check out master
-        uses: actions/checkout@production
+        uses: actions/checkout@master
         with:
           fetch-depth: 1
       - name: 🧪 Build and deploy
