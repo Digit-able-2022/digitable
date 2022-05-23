@@ -60,3 +60,25 @@
 .ffFutura {font-family: $ffFutura;}
 .ffGotham {font-family: $ffGotham;}
 .ffGloria {font-family: $ffGloria;}
+
+// COLOR BANNER
+.banner1 {
+  background: linear-gradient($darkBlue, $blue ) ;
+  height: 100vh;
+  width: 10vw;
+}
+.banner2 {
+  background: linear-gradient($orange, $blue ) ;
+  height: 100vh;
+  width: 10vw;
+}
+.banner3 {
+  background: linear-gradient($green, $blue ) ;
+  height: 100vh;
+  width: 10vw;
+}
+.banner4 {
+  background: linear-gradient($pink, $blue ) ;
+  height: 100vh;
+  width: 10vw;
+}
