@@ -21,10 +21,9 @@ collections:
 
   years:
     output: true
-    permalink: /:year
+    permalink: /:year/:name
 
-  tables:
-    output: true
+
 
 
 
