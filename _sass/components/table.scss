@@ -175,4 +175,17 @@ display: block;
 .middleInter, .rightInter{
   width: 33%;
   margin: 15% 5%;
+  position: relative;
+}
+
+.btnBoxNext{
+  right: 0;
+  top: 2%;
+  display: flex;
+  position: absolute;
+  background: blue;
+  padding: 5px 15px;
+}
+.imgBtnNext{
+  width: 50%;
 }
