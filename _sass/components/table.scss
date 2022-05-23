@@ -179,13 +179,19 @@ display: block;
 }
 
 .btnBoxNext{
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  color: white;
   right: 0;
-  top: 2%;
+  bottom: -30%;
   display: flex;
   position: absolute;
-  background: blue;
+  background: $darkBlue;
   padding: 5px 15px;
+  width: 10vw;
 }
 .imgBtnNext{
-  width: 50%;
+  width: 20%;
+  margin: 0 1%;
 }
