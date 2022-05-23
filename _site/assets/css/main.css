@@ -326,8 +326,8 @@ a { text-decoration: none; }
 
 .middleInter, .rightInter { width: 33%; margin: 15% 5%; position: relative; }
 
-.btnBoxNext { right: 0; top: 2%; display: flex; position: absolute; background: blue; padding: 5px 15px; }
+.btnBoxNext { justify-content: center; align-items: center; border-radius: 10px; color: white; right: 0; bottom: -30%; display: flex; position: absolute; background: #2230B1; padding: 5px 15px; width: 10vw; }
 
-.imgBtnNext { width: 50%; }
+.imgBtnNext { width: 20%; margin: 0 1%; }
 
 /*# sourceMappingURL=main.css.map */
