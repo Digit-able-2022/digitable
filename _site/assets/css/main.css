@@ -306,11 +306,11 @@ a { text-decoration: none; }
 
 .iconLive { width: 20%; }
 
-.imgOrganisateur { background: gray; margin: 5vh 0; width: 200px; height: 200px; }
+.imgOrganisateur { border-radius: 10px; background: gray; margin: 5vh 0; width: 200px; height: 200px; }
 
-.hostBanner { background: blue; position: absolute; bottom: 25.5%; left: -22%; transform: rotate(-90deg); text-align: center; height: 5vh; width: 84%; align-items: center; }
+.hostBanner { background: blue; position: absolute; bottom: 28%; left: -40%; transform: rotate(-90deg); text-align: center; height: 5vh; width: 55vh; align-items: center; }
 
-.hostName { position: absolute; top: 50%; -ms-transform: translateY(-50%); transform: translateY(-50%); left: 25%; }
+.hostName { position: absolute; top: 50%; -ms-transform: translateY(-50%); transform: translateY(-50%); left: 25%; z-index: 3; }
 
 .liveMiddle, .liveRight { padding-top: 10vh; }
 
@@ -326,7 +326,7 @@ a { text-decoration: none; }
 
 .middleInter, .rightInter { width: 33%; margin: 15% 5%; position: relative; }
 
-.btnBoxNext { justify-content: center; align-items: center; border-radius: 10px; color: white; right: 0; bottom: -30%; display: flex; position: absolute; background: #2230B1; padding: 5px 15px; width: 10vw; }
+.btnBoxNext { justify-content: center; align-items: center; border-radius: 10px; color: white; right: 0; bottom: -30%; display: flex; position: absolute; background: #2230B1; padding: 10px 15px; width: 10vw; }
 
 .imgBtnNext { width: 20%; margin: 0 1%; }
 

@@ -108,6 +108,7 @@ display: block;
   width: 20%;
 }
 .imgOrganisateur{
+  border-radius: 10px;
   background: gray;
   margin: 5vh 0;
   width: 200px;
@@ -117,13 +118,12 @@ display: block;
 .hostBanner{
   background: blue;
   position: absolute;
-  bottom: 25.5%;
-  left:-22%;
-
+  bottom: 28%;
+  left:-40%;
   transform: rotate(-90deg);
   text-align: center;
   height: 5vh;
-  width: 84%;
+  width: 55vh;
   align-items: center;
 
 }
@@ -133,6 +133,7 @@ display: block;
   -ms-transform: translateY(-50%);
   transform: translateY(-50%);
   left: 25%;
+  z-index: 3;
 }
 
 .liveMiddle, .liveRight{
@@ -188,7 +189,7 @@ display: block;
   display: flex;
   position: absolute;
   background: $darkBlue;
-  padding: 5px 15px;
+  padding: 10px 15px;
   width: 10vw;
 }
 .imgBtnNext{
