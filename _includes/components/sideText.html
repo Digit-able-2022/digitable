@@ -1,5 +1,6 @@
 <article class="textWhite txtWhite">
-  {% assign rightYear = site.years | where: "year", "2022" %}
+  {% assign mainPage = site.years | where: "mainPage", "true" %}
+  {% assign rightYear = mainPage | where: "year", "2022" %}
 
   <h2>Édition {{ rightYear[0].year }}</h2>
   <h1>{{ rightYear[0].theme }}</h1>

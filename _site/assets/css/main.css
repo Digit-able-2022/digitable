@@ -158,7 +158,7 @@ a { text-decoration: none; }
 #bBD { right: 0; bottom: 0; transform: translateY(80%); }
 
 /************************* Right SIDE ***********************************/
-.bande { width: 100%; background-position: center; background-repeat: repeat; background-size: cover; position: relative; cursor: pointer; transition: all 0.5s; }
+.bande { width: 100%; background-position: center; background-repeat: repeat; background-size: cover; position: relative; transition: all 0.5s; }
 
 .buttonProg { justify-content: space-between; position: absolute; bottom: 20%; right: 2%; }
 
