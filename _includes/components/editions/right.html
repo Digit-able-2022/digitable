@@ -1,9 +1,12 @@
 <section class="side right">
 
-  {% assign rightYear = site.years %}
+  {% assign rightYear = site.years | where: "mainPage", "true" %}
   {% assign numberEditions = rightYear | size %}
 
-  {% for edition in rightYear %}
+
+
+  {% for edition in rightYear%}
+
     {% include components/editions/card.html theme = edition.theme year = edition.year nbr = numberEditions %}
   {% endfor %}
 
