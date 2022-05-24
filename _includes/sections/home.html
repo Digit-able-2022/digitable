@@ -19,7 +19,9 @@
   const progCroix = document.getElementsByClassName('progCroix')
 
 
-  progCroix[0].onclick = function() { hide() };
+  progCroix[0].onclick = function() {
+    progBtn[0].classList.toggle('croixMinus')
+    hide() };
   const popUpProg = document.getElementById('popSection')
 
   const RightSide = document.getElementsByClassName('TableContainer')
