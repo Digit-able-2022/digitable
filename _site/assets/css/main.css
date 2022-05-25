@@ -294,7 +294,7 @@ a { text-decoration: none; }
 
 .txtPoster { width: 100%; font-size: 1.125rem; }
 
-.directLiveSection { width: 120vw; margin: 0; position: relative; display: flex; justify-content: space-around; }
+.directLiveSection { margin: 0; position: relative; display: flex; justify-content: space-around; }
 
 .liveFlex { width: 33vw; position: relative; display: block; }
 
