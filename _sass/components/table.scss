@@ -2,15 +2,18 @@
 .tableOuterSection{
   display: flex;
   width: fit-content;
-  max-height: 100vh;
+  height: 100vh;
   background: black;
   font-family: $ffFutura;
+
 }
 .tableWrapper{
+
   display: flex;
   flex-direction: row;
 }
 .slide{
+  padding: 5vh 0;
   width: 100vw;
   height: 100vh;
   color: $white;
@@ -37,7 +40,7 @@
 }
 .tableSubTitle{
   align-self: center;
-  margin-left: 2%;
+
   color: white;
   cursor: pointer;
 }
@@ -78,7 +81,7 @@
 }
 // LIVE SECTION
 .directLiveSection{
-  width: 120vw;
+
   margin: 0;
   position: relative;
   display: flex;
@@ -107,23 +110,28 @@ display: block;
 .iconLive{
   width: 20%;
 }
-.imgOrganisateur{
-  background: gray;
+.imgBoxHost{
+
+  border-radius: 10px;
   margin: 5vh 0;
   width: 200px;
   height: 200px;
 
 }
+.imgHost{
+  margin: 0 5% 10%;
+  width: 90%;
+  height: 100%;
+}
 .hostBanner{
   background: blue;
   position: absolute;
-  bottom: 25.5%;
-  left:-22%;
-
+  bottom: 26.97%;
+  left:-40%;
   transform: rotate(-90deg);
   text-align: center;
   height: 5vh;
-  width: 84%;
+  width: 54vh;
   align-items: center;
 
 }
@@ -133,6 +141,7 @@ display: block;
   -ms-transform: translateY(-50%);
   transform: translateY(-50%);
   left: 25%;
+  z-index: 3;
 }
 
 .liveMiddle, .liveRight{
@@ -146,8 +155,12 @@ display: block;
 
 .intervenant{
   display: flex;
-  justify-content: space-evenly;
+  justify-content: center;
 
+}
+.leftInter{
+  width: 40%;
+  margin: 0;
 }
 .imgBoxIntervenant{
   display: flex;
@@ -156,26 +169,34 @@ display: block;
 }
 .bannerIntervenant{
   background: $darkBlue;
-  min-height: 125%;
+  min-height: 100%;
   position: relative;
   display: block;
   width: 3vw;
 
 }
 .titleBannerIntervenant{
-  left: -23.5vw;
   position: absolute;
   text-align: center;
-  transform: rotate(-90deg);
-  width: 50vw;
   bottom: 50%;
   z-index: 1;
 }
 
-.middleInter, .rightInter{
-  width: 33%;
-  margin: 15% 5%;
+.middleInter{
+  width: 40%;
+  height: 50vh;
+  margin: 7% 0;
   position: relative;
+}
+.nomBoxIntervenant{
+  margin-bottom: 5%;
+  width: 70%;
+}
+.infoInter{
+  margin: 10% 0;
+  line-height: 2;
+  font-family: $ffFutura;
+  font-weight: 100;
 }
 
 .btnBoxNext{
@@ -184,11 +205,11 @@ display: block;
   border-radius: 10px;
   color: white;
   right: 0;
-  bottom: -30%;
+  bottom: 0;
   display: flex;
   position: absolute;
   background: $darkBlue;
-  padding: 5px 15px;
+  padding: 10px 15px;
   width: 10vw;
 }
 .imgBtnNext{
