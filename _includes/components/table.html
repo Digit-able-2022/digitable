@@ -1,74 +1,78 @@
 
+
+
 <section class="tableWrapper">
-<div class="{{page.banner}}"></div>
-<div class="slide slide1 landingTableBox">
-  <h1 class="tableTitle">{{ page.title }}</h1>
-  <ul class="tableProgramList">
-    <li class="tablePart">
-      <img src="../../assets/imgs/poster.svg" alt="icon-interventants">
-      <a href="#poster" class="tableSubTitle">
-        <h2 class="tableSubTitle">Poster</h2>
-      </a>
-   </li>
-    <li class="tablePart">
-      <img src="../../assets/imgs/intervenant.svg" alt="icon-live">
-      <a href="#intervenants" class="tableSubTitle">
-        <h2 class="tableSubTitle">Intervenants</h2>
-      </a>
-    </li>
-    <li class="tablePart">
-      <img src="../../assets/imgs/live.svg" alt="icon-ouvrage">
-      <a href="#live" class="tableSubTitle">
-        <h2 class="tableSubTitle">Direct Live</h2>
-      </a>
-    </li>
-    <li class="tablePart">
-      <img src="../../assets/imgs/ouvrage.svg" alt="icon-poster">
-      <a href="#ouvrage" class="tableSubTitle">
-        <h2 class="tableSubTitle">Ouvrage</h2>
-      </a>
-    </li>
-  </ul>
-</div>
 
-<div id="poster" class="slide imgBoxPoster">
-  <!-- <img src="" alt="tablePoster"> -->
-</div>
+  <div class="{{page.banner}}"></div>
+  <div class="slide slide1 landingTableBox">
+    <h1 class="tableTitle">{{ page.title }}</h1>
+    <ul class="tableProgramList">
+      <li class="tablePart">
+        <img alt="icon-interventants" src="../../assets/imgs/poster.svg">
+        <a class="tableSubTitle" href="#poster">
+          <h2 class="tableSubTitle">Poster</h2>
+        </a>
+      </li>
+      <li class="tablePart">
+        <img alt="icon-live" src="../../assets/imgs/intervenant.svg">
+        <a class="tableSubTitle" href="#intervenants">
+          <h2 class="tableSubTitle">Intervenants</h2>
+        </a>
+      </li>
+      <li class="tablePart">
+        <img alt="icon-ouvrage" src="../../assets/imgs/live.svg">
+        <a class="tableSubTitle" href="#live">
+          <h2 class="tableSubTitle">Direct Live</h2>
+        </a>
+      </li>
+      <li class="tablePart">
+        <img alt="icon-poster" src="../../assets/imgs/ouvrage.svg">
+        <a class="tableSubTitle" href="#ouvrage">
+          <h2 class="tableSubTitle">Ouvrage</h2>
+        </a>
+      </li>
+    </ul>
+  </div>
 
-<div  class="slide tablePoster">
+  <div class="slide imgBoxPoster" id="poster">
+    <!-- <img src="" alt="tablePoster"> -->
+  </div>
+
+  <div class="slide tablePoster">
     <div class="textPoster">
       <h2 class="titlePoster">Le Poster</h2>
       <p class="txtPoster">{{page.poster}}</p>
     </div>
-</div>
-<!-- -------------LIVE SECTION------------- -->
-<div id="live"class="slide directLiveSection">
-  <div class="liveFlex titleBoxLive">
-    <div class= "subtitleBoxLive">
-      <img src="../../assets/imgs/live.svg" alt="iconLive" class="iconLive">
-      <h2 class="tableSubTitle">Le Direct Live</h2>
-    </div>
-    <div class="boxImgLive">
-      <div class="imgBoxHost">
-        <img class="imgHost"src="{{page.presentateur_img}}" alt="photo présentateur">
-
-      </div>
-      <div class="hostBanner">
-        <p class="hostName">Présenté par {{page.presentateur_name}}</p>
-      </div>
-    </div>
   </div>
+  <!-- <temp data-prettydiff-ignore>-------</temp><temp data-prettydiff-ignore>------LIVE SECTION---</temp><temp data-prettydiff-ignore>-------</temp>--- -->
+  <div class="slide directLiveSection" id="live">
+    <div class="liveFlex titleBoxLive">
+      <div class="subtitleBoxLive">
+        <img alt="iconLive" class="iconLive" src="../../assets/imgs/live.svg">
+        <h2 class="tableSubTitle">Le Direct Live</h2>
+      </div>
+      <div class="boxImgLive">
+        <div class="imgBoxHost">
+          <img class="imgHost" src="{{page.presentateur_img}}" alt="photo présentateur">
 
-  <div class="liveFlex liveMiddle">
-    <div class="liveContentText">
-      <div class="angleSection">
-        <h3 class="tableSubTitle">L'angle</h3>
-        <p class="text">{{page.angle}}</p>
-        <img src="" alt="image-angle">
+        </div>
+        <div class="hostBanner">
+          <p class="hostName">Présenté par
+            {{page.presentateur_name}}</p>
+        </div>
       </div>
     </div>
-  </div>
-  <!-- <div class="liveFlex liveRight">
+
+    <div class="liveFlex liveMiddle">
+      <div class="liveContentText">
+        <div class="angleSection">
+          <h3 class="tableSubTitle">L'angle</h3>
+          <p class="text">{{page.angle}}</p>
+          <img alt="image-angle" src="">
+        </div>
+      </div>
+    </div>
+    <!-- <div class="liveFlex liveRight">
     <div class="liveContentText">
       <div class="liveSection">
         <h3 class="tableSubTitle">Retex</h3>
@@ -81,36 +85,36 @@
     </div>
   </div> -->
 
-</div>
-
-<!-- VIDEO SECTION -->
-
-<div id="video" class="slide slide4 videoTable"></div>
-
-<!-- INTERVENANTS SECTION -->
-
-<div id="intervenants" class="slide  intervenant">
-  <div class="imgBoxIntervenant">
-    <div class="bannerIntervenant ">
-      <p class="titleBannerIntervenant">{{page.profession1}}</p>
-    </div>
-    <img src="../../assets/imgs/imgIntervenant.png" alt="" class="imgIntervenant">
   </div>
-  <div class="sectionIntervenant middleInter">
-    <h2 class="tableSubTitle titleIntervenant ">{{page.name1}}</h2>
-  </div>
-  <div class="sectionIntervenant rightInter">
-    <h2 class="tableSubTitle titleIntervenant">Résumé</h2>
-    <p class="infoInter">{{page.com}}</p>
-    <a href="" class="btnLinkNext">
-      <div class="btnBoxNext">
-        <p class="txtBtnNext">Suivant</p>
-        <img class="imgBtnNext" src="../../assets/imgs/next.png" alt="">
+
+  <!-- VIDEO SECTION -->
+
+  <div class="slide slide4 videoTable" id="video"></div>
+
+  <!-- INTERVENANTS SECTION -->
+
+  <div class="slide  intervenant" id="intervenants">
+    <div class="imgBoxIntervenant">
+      <div class="bannerIntervenant ">
+        <p class="titleBannerIntervenant">{{page.profession1}}</p>
       </div>
-    </a>
+      <img alt="" class="imgIntervenant" src="../../assets/imgs/imgIntervenant.png">
+    </div>
+    <div class="sectionIntervenant middleInter">
+      <h2 class="tableSubTitle titleIntervenant ">{{page.name1}}</h2>
+    </div>
+    <div class="sectionIntervenant rightInter">
+      <h2 class="tableSubTitle titleIntervenant">Résumé</h2>
+      <p class="infoInter">{{page.com}}</p>
+      <a class="btnLinkNext" href="">
+        <div class="btnBoxNext">
+          <p class="txtBtnNext">Suivant</p>
+          <img alt="" class="imgBtnNext" src="../../assets/imgs/next.png">
+        </div>
+      </a>
 
+
+    </div>
 
   </div>
-
-</div>
 </section>
