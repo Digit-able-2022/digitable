@@ -3,12 +3,10 @@ Configuration file: /Users/aurelianedor/SITES/digitable/_config.yml
        Destination: /Users/aurelianedor/SITES/digitable/_site
  Incremental build: disabled. Enable with --incremental
       Generating... 
-                    done in 0.108 seconds.
+                    done in 0.113 seconds.
  Auto-regeneration: enabled for '/Users/aurelianedor/SITES/digitable'
     Server address: http://127.0.0.1:4000/
   Server running... press ctrl-c to stop.
-[2022-05-24 14:55:31] ERROR `/philippe.jpeg' not found.
-[2022-05-24 14:55:31] ERROR `/assets/css/variables.scss' not found.
-[2022-05-24 14:55:31] ERROR `/favicon.ico' not found.
-[2022-05-24 14:56:39] ERROR `/assets/css/variables.scss' not found.
-[2022-05-24 14:56:49] ERROR `/assets/css/variables.scss' not found.
+[2022-05-25 12:42:27] ERROR `/assets/css/variables.scss' not found.
+[2022-05-25 12:42:30] ERROR `/assets/css/variables.scss' not found.
+[2022-05-25 12:42:34] ERROR `/assets/css/variables.scss' not found.
