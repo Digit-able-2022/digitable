@@ -266,11 +266,11 @@ a { text-decoration: none; }
 
 .navTable .flex { display: block; }
 
-.tableOuterSection { display: flex; width: fit-content; max-height: 100vh; background: black; font-family: "FuturaPTheavy"; }
+.tableOuterSection { display: flex; width: fit-content; height: 100vh; background: black; font-family: "FuturaPTheavy"; }
 
 .tableWrapper { display: flex; flex-direction: row; }
 
-.slide { width: 100vw; height: 100vh; color: #FFFFFF; padding-top: 5vw; }
+.slide { padding: 5vh 0; width: 100vw; height: 100vh; color: #FFFFFF; padding-top: 5vw; }
 
 .landingTableBox { padding-left: 20vw; margin: 0 auto; font-family: "FuturaPTheavy"; }
 
@@ -280,7 +280,7 @@ a { text-decoration: none; }
 
 .tablePart { font-size: 2rem; margin: 3% 0; display: flex; align-content: center; }
 
-.tableSubTitle { align-self: center; margin-left: 2%; color: white; cursor: pointer; }
+.tableSubTitle { align-self: center; color: white; cursor: pointer; }
 
 .tableSubTitle:hover { transition: .5s ease-in-out; color: #54EBFF; }
 
@@ -318,17 +318,23 @@ a { text-decoration: none; }
 
 .liveSection { margin-bottom: 10vh; }
 
-.intervenant { display: flex; justify-content: space-evenly; }
+.intervenant { display: flex; justify-content: center; }
+
+.leftInter { width: 40%; margin: 0; }
 
 .imgBoxIntervenant { display: flex; height: 80%; position: relative; }
 
-.bannerIntervenant { background: #2230B1; min-height: 125%; position: relative; display: block; width: 3vw; }
+.bannerIntervenant { background: #2230B1; min-height: 100%; position: relative; display: block; width: 3vw; }
 
-.titleBannerIntervenant { left: -23.5vw; position: absolute; text-align: center; transform: rotate(-90deg); width: 50vw; bottom: 50%; z-index: 1; }
+.titleBannerIntervenant { position: absolute; text-align: center; bottom: 50%; z-index: 1; }
 
-.middleInter, .rightInter { width: 33%; margin: 15% 5%; position: relative; }
+.middleInter { width: 40%; height: 50vh; margin: 7% 0; position: relative; }
 
-.btnBoxNext { justify-content: center; align-items: center; border-radius: 10px; color: white; right: 0; bottom: -30%; display: flex; position: absolute; background: #2230B1; padding: 10px 15px; width: 10vw; }
+.nomBoxIntervenant { margin-bottom: 5%; width: 70%; }
+
+.infoInter { margin: 10% 0; line-height: 2; font-family: "FuturaPTheavy"; font-weight: 100; }
+
+.btnBoxNext { justify-content: center; align-items: center; border-radius: 10px; color: white; right: 0; bottom: 0; display: flex; position: absolute; background: #2230B1; padding: 10px 15px; width: 10vw; }
 
 .imgBtnNext { width: 20%; margin: 0 1%; }
 
